@@ -12,7 +12,7 @@ namespace TipCalculator.Models
             if (MealCost.HasValue)
             {
                 var tip = MealCost.Value / percent;
-                return tip
+                return tip;
             }
             else
             {
