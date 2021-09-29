@@ -1,4 +1,4 @@
-﻿body {
+body {
     padding: 1em;
     font-family: Arial, Arial, Helvetica, sans-serif;
 }
@@ -10,7 +10,7 @@ h1 {
 
 label {
     display: inline-block;
-    widht: 10em;
+    width: 10em;
     padding-right: 1em;
 }
 
