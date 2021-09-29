@@ -11,7 +11,7 @@ namespace TipCalculator.Models
         public double CalculateTip(double percent) {
             if (MealCost.HasValue)
             {
-                var tip = MealCost.Value / percent;
+                var tip = MealCost.Value * percent;
                 return tip;
             }
             else
